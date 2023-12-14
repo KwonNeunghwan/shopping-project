@@ -51,7 +51,7 @@
 ![image](https://github.com/KwonNeunghwan/shopping-project/assets/108215234/edaec00f-fd08-4ded-b5c5-3e400cc22a4a)
 
 >## 리뷰기능
-![image](https://github.com/KwonNeunghwan/shopping-project/assets/108215234/b207c0b1-2fe2-4981-9311-e6819beddeb4)
+![image](https://github.com/KwonNeunghwan/shopping-project/assets/108215234/f6eeff03-7892-47ce-b201-307d8203470a)
 
 > ## 관리자 로그인
 -회원목록
