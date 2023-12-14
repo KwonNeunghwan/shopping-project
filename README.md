@@ -9,6 +9,8 @@
 - 로그인 페이지, 회원가입 페이지
 - 아이디 비번찾기
 - 마이페이지
+- 여성의류
+- 남성의류
 - 리뷰기능
 - 관리자 로그인(상품등록, 상품목록, 회원목록)
 
@@ -41,6 +43,12 @@
 > ## 마이페이지
 -마이페이지 화면
 >![image](https://github.com/KwonNeunghwan/shopping-project/assets/108215234/cd81bd8e-4c09-4790-bcb1-a38b1f2d783a)
+
+>## 남성의류, 여성의류
+-남성의류
+>![image](https://github.com/KwonNeunghwan/shopping-project/assets/108215234/01638ff6-8ca3-4a56-819a-1248669260a0)
+-여성의류
+![image](https://github.com/KwonNeunghwan/shopping-project/assets/108215234/edaec00f-fd08-4ded-b5c5-3e400cc22a4a)
 
 > ## 관리자 로그인
 -회원목록
