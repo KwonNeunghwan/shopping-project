@@ -33,13 +33,6 @@
 >![회원가입(약관동의)](https://github.com/KwonNeunghwan/shopping-project/assets/108215234/af26f030-efea-42b1-b26a-f4cdaaa551af)
 >![회원가입](https://github.com/KwonNeunghwan/shopping-project/assets/108215234/d0cd673a-113f-4344-936b-11009ea21d7c)
 
-> ## 아이디 비번찾기
--게시판 목록
-> ![게시판 목록](https://github.com/KwonNeunghwan/webtest/assets/108215234/d0d3512b-fb14-4eee-b97a-7d7b60ec42cf)
--게시판 생성
-> ![게시판 생성](https://github.com/KwonNeunghwan/webtest/assets/108215234/84a5f954-23b8-40ad-9882-c718d27cb957)
-
-
 > ## 마이페이지
 -마이페이지 화면
 >![image](https://github.com/KwonNeunghwan/shopping-project/assets/108215234/cd81bd8e-4c09-4790-bcb1-a38b1f2d783a)
