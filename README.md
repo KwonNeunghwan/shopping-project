@@ -6,36 +6,46 @@
 ---
 
 - 기본페이지
-- 로그인 페이지, 회원가입 페이지, 약관동의 페이지
+- 로그인 페이지, 회원가입 페이지
 - 아이디 비번찾기
+- 마이페이지
 - 리뷰기능
-- 마이페이지 
+- 관리자 로그인(상품등록, 상품목록, 회원목록)
+
 
   
 
 > ## 추가적으로 구현할 기능
-- cart
-- 설문(투표)
+- 장바구니
+- 주문 테이블
 ---
 > ## 기본화면
-> ![index페이지](https://github.com/KwonNeunghwan/webtest/assets/108215234/265aae07-420f-46a2-af73-16f6312dff67)
-> ![index2페이지](https://github.com/KwonNeunghwan/webtest/assets/108215234/6472007b-d704-4a42-b710-3077387f36e2)
+> ![기본페이지1](https://github.com/KwonNeunghwan/shopping-project/assets/108215234/89d7d09f-7ea3-445d-90a7-9c14adbe4b6d)
+> ![기본페이지2](https://github.com/KwonNeunghwan/shopping-project/assets/108215234/7f948a4d-bbe7-4dbd-921f-b27e121575f6)
+> ![기본페이지3](https://github.com/KwonNeunghwan/shopping-project/assets/108215234/ba189367-3335-4856-bad4-e73e25b06f84)
 
-> ## 공지사항 화면
--공지사항 목록
->![공지사항 목록](https://github.com/KwonNeunghwan/webtest/assets/108215234/1f3c184e-50f1-42e8-900d-ec6ed435dd32)
--공지사항 생성
->![공지사항 생성](https://github.com/KwonNeunghwan/webtest/assets/108215234/2d52d1c6-512b-4134-ae5f-2dc4154ec9e0)
+> ## 로그인, 회원가입
+-로그인 
+>![로그인페이지](https://github.com/KwonNeunghwan/shopping-project/assets/108215234/ee52d85d-e288-4247-8bb1-b4a8dde4cdd9) 
+-회원가입
+>![회원가입(약관동의)](https://github.com/KwonNeunghwan/shopping-project/assets/108215234/af26f030-efea-42b1-b26a-f4cdaaa551af)
+>![회원가입](https://github.com/KwonNeunghwan/shopping-project/assets/108215234/d0cd673a-113f-4344-936b-11009ea21d7c)
 
-> ## 게시판 화면
+> ## 아이디 비번찾기
 -게시판 목록
 > ![게시판 목록](https://github.com/KwonNeunghwan/webtest/assets/108215234/d0d3512b-fb14-4eee-b97a-7d7b60ec42cf)
 -게시판 생성
 > ![게시판 생성](https://github.com/KwonNeunghwan/webtest/assets/108215234/84a5f954-23b8-40ad-9882-c718d27cb957)
 
 
-> ## 웹 게임 화면
--초기화면
->![공룡게임 초기화면](https://github.com/KwonNeunghwan/webtest/assets/108215234/548891c2-ee4c-4729-910c-eaf5c21d7ef3)
--실행화면(게임오버)
->![게임 실행화면](https://github.com/KwonNeunghwan/webtest/assets/108215234/b1d72af5-5af9-4f78-bad9-7b9a6cec741d)
+> ## 마이페이지
+-마이페이지 화면
+>![image](https://github.com/KwonNeunghwan/shopping-project/assets/108215234/cd81bd8e-4c09-4790-bcb1-a38b1f2d783a)
+
+> ## 관리자 로그인
+-회원목록
+>![image](https://github.com/KwonNeunghwan/shopping-project/assets/108215234/3e3e78dc-ae10-428a-bb48-cf040a857d1b)
+-상품등록
+>![image](https://github.com/KwonNeunghwan/shopping-project/assets/108215234/c923e704-22a7-4a61-869e-bc028823ec88)
+-상품목록
+>![image](https://github.com/KwonNeunghwan/shopping-project/assets/108215234/b95c0e0a-7768-4ea6-be77-bde3b31eb75d)
