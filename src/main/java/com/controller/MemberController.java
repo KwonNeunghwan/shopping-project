@@ -148,7 +148,41 @@ public class MemberController {
 
 		return "/member/login";
 	}
+	
+	
+	@GetMapping("/member/logincheck")
+	public String logincheck(HttpSession session, Model model) {
+		
+		String id = (String)session.getAttribute("id");
+		 
+	       MemberDTO dto = service.mypage(id);
+	      
+	       model.addAttribute("dto", dto);
+	       
+		return "/member/logincheck";
+	}
+	
+	
 
+	
+	/*@PostMapping("/member/logincheck")
+	public String logincheck(String email, HttpSession session, HttpServletRequest request,
+			HttpServletResponse response) {
+		
+		int cnt = service.loginCheck2(email);
+		
+		
+		if (cnt > 0) {
+			return "redirect:/";
+		} else {
+
+			request.setAttribute("msg", "아이디를 찾을 수 없습니다. 제대로 된 이메일을 입력해주세요");
+			return "passwdError";
+		}
+	}*/
+	
+	
+	
 	@GetMapping("/member/logout")
 	public String logout(HttpSession session) {
 		session.invalidate();
@@ -325,7 +359,18 @@ public class MemberController {
 	}
 	
 	
-	
+	@GetMapping("/member/detail")
+	  public String detail(HttpSession session, Model model) {
+	      
+		  String id = (String)session.getAttribute("id");
+			 
+		       MemberDTO dto = service.mypage(id);
+		      
+		       model.addAttribute("dto", dto);
+		      
+		  
+	      return "/member/detail";
+	   } 
 	
 	@PostMapping("/member/updateFile")
 	public String updateFile(MultipartFile fname, String oldfile, String id) {

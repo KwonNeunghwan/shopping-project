@@ -31,6 +31,12 @@
 		<put-attribute name="body"
 			value="/WEB-INF/views/member/loginForm.jsp" />
 	</definition>
+	
+	<definition name="/member/logincheck" extends="main">
+		<put-attribute name="title" value="로그인"></put-attribute>
+		<put-attribute name="body"
+			value="/WEB-INF/views/member/find.jsp" />
+	</definition>
 
 	<definition name="/member/list" extends="main">
 		<put-attribute name="title" value="회원목록"></put-attribute>
@@ -86,7 +92,7 @@
 			value="/WEB-INF/views/member/cart.jsp" />
 	</definition>
 	
-	<definition name="/contents/detail" extends="main">
+	<definition name="/member/detail" extends="main">
 		<put-attribute name="title" value="여성의류페이지"></put-attribute>
 		<put-attribute name="body"
 			value="/WEB-INF/views/member/Review.jsp" />

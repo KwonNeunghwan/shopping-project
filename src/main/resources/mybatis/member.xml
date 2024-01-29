@@ -18,6 +18,13 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		where id = #{id}
 		and passwd = #{passwd}
 	</select>
+	
+	<select id="loginCheck2" parameterType="String" resultType="int">
+		select
+		count(*) from member
+		where email = #{email}
+	</select>
+	
 	<select id="duplicatedId" parameterType="String"
 		resultType="int">
 		SELECT COUNT(id)

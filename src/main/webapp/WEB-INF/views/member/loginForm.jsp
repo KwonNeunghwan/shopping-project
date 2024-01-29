@@ -63,7 +63,7 @@
 
             <button type="submit" class="btn btn-outline-info">로그인</button>
             <button type="button" class="btn btn-outline-success" onclick="location.href='agree'">회원가입</button>
-            <button type="button" data-toggle="collapse" data-target="#demo" onclick="location.href=''" class="btn btn-outline-dark">아이디 찾기</button>
+            <button type="button" data-toggle="collapse" data-target="#demo" onclick="location.href='logincheck'" class="btn btn-outline-dark">아이디 찾기</button>
             <button type="button" data-toggle="collapse" data-target="#demo" onclick="change(2)" class="btn btn-outline-dark">패스워드 찾기</button>
         </form>
 

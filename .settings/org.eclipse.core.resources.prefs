@@ -1,4 +1,5 @@
 eclipse.preferences.version=1
+encoding//src/main/webapp/WEB-INF/views/contents/notice.jsp=UTF-8
 encoding//src/main/webapp/WEB-INF/views/member/bottom.jsp=UTF-8
 encoding//src/main/webapp/WEB-INF/views/member/cart.jsp=UTF-8
 encoding//src/main/webapp/WEB-INF/views/member/men.jsp=UTF-8

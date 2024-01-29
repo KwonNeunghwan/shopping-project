@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -20,6 +21,7 @@ import org.springframework.web.multipart.MultipartFile;
 import com.UploadCon;
 import com.model.content.ContentsDTO;
 import com.model.content.ContentsService;
+import com.model.member.MemberDTO;
 import com.utility.Utility;
 
 @Controller
@@ -222,13 +224,16 @@ public class ContentsController {
 	 
 	  }
 	  
-	  @GetMapping("/contents/detail/{contentsno}")
+	/*  @GetMapping("/contents/detail/{contentsno}")
 	  public String detail(@PathVariable("contentsno") int contentsno, Model model) {
 	      
 	     model.addAttribute("dto",service.read(contentsno));
 	    
 	      return "/contents/detail";
-	  }
+	  } 
+	  */
+	  
+	 
 	  
 	 
 	
