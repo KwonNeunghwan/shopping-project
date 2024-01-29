@@ -14,13 +14,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
  
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
-@Getter
-@Setter
-@ToString
-@Builder
+
 
 public class OrdersDTO{
   public int getOrderno() {

@@ -10,13 +10,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
-@NoArgsConstructor
-@AllArgsConstructor
-@Getter
-@Setter
-@ToString
-@Builder
-@Data
+
 public class ContentsDTO {
 	private int contentsno;
 	private int cateno;

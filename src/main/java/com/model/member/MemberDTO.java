@@ -9,13 +9,7 @@ import com.model.orders.OrderdetailDTO;
 import lombok.Data;
  
 import lombok.*;
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
-@Getter
-@Setter
-@ToString
-@Builder
+
 public class MemberDTO {
     public String getId() {
 		return id;
