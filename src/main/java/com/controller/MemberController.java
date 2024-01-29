@@ -20,13 +20,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
-import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+
 
 import com.UploadMem;
 import com.model.member.MemberDTO;
 import com.model.member.MemberService;
-import com.model.orders.OrderdetailDTO;
-import com.mysql.cj.Session;
 import com.utility.Utility;
 
 @Controller
